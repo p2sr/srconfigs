@@ -1,0 +1,4 @@
+[submodule "portal2-mtriggers"]
+	path = portal2-mtriggers
+	url = https://github.com/p2sr/portal2-mtriggers
+	branch = disable-svar
