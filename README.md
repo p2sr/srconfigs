@@ -24,6 +24,7 @@ You can bind the following commands:
 - `+supershoot` - hold to enable scrollup being shoot
 - `30fps_toggle` - toggle 30fps mode (for coop button glitches and certain SLA tricks)
 - `contimes_toggle` - toggle seeing contimes text (e.g. for double dialogue skip)
+- `dialogue_toggle` - toggle the dialogue from glados, wheatley, and the announcer
 - `do_load <save name>` - load a save only if in non-CM singleplayer
 - `do_reset` - reset your run
 
