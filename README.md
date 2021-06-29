@@ -64,6 +64,7 @@ playing CM.
 
 - `no_dialogue_toasts`  - when 1, disable dialogue fade toasts
 - `no_auto_category`    - when 1, disable automatic speedrun category selection
+- `coop_cm_disable_hud` - when 1, disable the CM stats HUD in coop (it is always disabled in singleplayer)
 
 ## Extra configuration
 
