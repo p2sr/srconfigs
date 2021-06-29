@@ -68,7 +68,8 @@ playing CM.
 
 ## Extra configuration
 
-Rather than modifying this autoexec.cfg directly, it is recommended you
-put any "personal" configuration (e.g. setting svars, performing HUD
-customisation) in `extra.cfg`. This file will be execed once by the
-autoexec.
+Rather than modifying this autoexec.cfg directly, it is *highly
+recommended* you put any "personal" configuration (e.g. setting svars,
+performing HUD customisation) in `extra.cfg`. This file will be run
+once by the autoexec. This file should be used in order to make updating
+this set of config files easier.
