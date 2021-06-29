@@ -38,6 +38,7 @@ categories is selected, the auto-detection system is disabled.
 You *must* set the following binds for the configs to function
 correctly:
 - `bind mwheelup +scrollup`
+- `bind mwheeldown +scrolldown`
 
 You can bind the following commands:
 - `funneling_toggle` - toggle portal funneling
