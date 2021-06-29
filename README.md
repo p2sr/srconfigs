@@ -2,13 +2,36 @@
 
 A simple set of configuration files for Portal 2 speedrunning with SAR.
 
-## Usage
+## Installation
 
 Place all these config files within the `Portal 2/portal2/cfg` directory, as is;
 they should automatically be run by the game as necessary. Ensure [SAR] is
 installed.
 
 [SAR]: https://github.com/p2sr/SourceAutoRecord
+
+## Categories
+
+These configuration files support the following speedrun categories in
+singleplayer:
+- Inbounds No SLA (`fullgame`)
+- any% (`anypc`)
+- Singleplayer Challenge Mode (`sp_cm`)
+
+And the following in coop:
+- All Main Courses (`amc`)
+- All Courses (`ac`)
+- Coop Challenge Mode (`coop_cm`)
+
+To manually switch to a category, simply run the category name as a
+command; for instance, the command `anypc` activates the any% category.
+
+By default, the configs will try to automatically detect the right
+category when you load into a map. To disable this, see the
+'Customisation svars' section below. Note that singleplayer any% and
+coop All Courses cannot be detected; if you are running these
+categories, you must manually switch to them. While one of these two
+categories is selected, the auto-detection system is disabled.
 
 ## Binds
 
@@ -27,6 +50,15 @@ You can bind the following commands:
 - `dialogue_toggle` - toggle the dialogue from glados, wheatley, and the announcer
 - `do_load <save name>` - load a save only if in non-CM singleplayer
 - `do_reset` - reset your run
+
+The aliases `cm_only` and `non_cm_only` can be used to make a bind only
+effective in certain cases, to handle rule differences between the
+[CM boards] and [speedrun.com]. For instance, a key bound to `cm_only
+funneling_toggle` would toggle portal funneling if and only if you were
+playing CM.
+
+[CM boards]: https://board.portal2.sr
+[speedrun.com]: https://speedrun.com/portal_2
 
 ## Customisation svars
 
