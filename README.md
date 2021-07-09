@@ -65,7 +65,8 @@ playing CM.
 
 - `no_dialogue_toasts`  - when 1, disable dialogue fade toasts
 - `no_auto_category`    - when 1, disable automatic speedrun category selection
-- `coop_cm_enable_hud` - when 1, don't disable the CM stats HUD in coop
+- `coop_cm_enable_hud`  - when 1, don't disable the CM stats HUD in coop
+- `coop_no_stopvideos`  - when 1, don't run `stopvideos` on every coop load
 
 ## Extra configuration
 
