@@ -67,6 +67,14 @@ playing CM.
 - `no_auto_category`    - when 1, disable automatic speedrun category selection
 - `coop_cm_enable_hud`  - when 1, don't disable the CM stats HUD in coop
 - `coop_no_stopvideos`  - when 1, don't run `stopvideos` on every coop load
+- `sp_cm_demo_dir`      - defaults to `chapter$chapter/$map`
+- `coop_cm_demo_dir`    - defaults to `$role/course$course/$map`
+
+Demo directories may use the following strings:
+- `$chapter` / `$course` - interchangable. The number of the chapter (e.g. `8`)
+- `$chapter_name` / `$course_name` - interchangable. The name of the chapter (e.g. `the-itch`)
+- `$map` - the human-readable map name (e.g. `triple-laser`)
+- `$role` - in coop, either `blue` or `orange`
 
 ## Extra configuration
 
