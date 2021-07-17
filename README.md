@@ -63,12 +63,14 @@ playing CM.
 
 ## Customisation svars
 
-- `no_dialogue_toasts`  - when 1, disable dialogue fade toasts
-- `no_auto_category`    - when 1, disable automatic speedrun category selection
-- `coop_cm_enable_hud`  - when 1, don't disable the CM stats HUD in coop
-- `coop_no_stopvideos`  - when 1, don't run `stopvideos` on every coop load
-- `sp_cm_demo_name`     - defaults to `chapter$chapter/$map/%Y-%m-%d_%H-%M-%S`
-- `coop_cm_demo_name`   - defaults to `$role/course$course/$map/%Y-%m-%d_%H-%M-%S`
+- `no_dialogue_toasts`      - when 1, disable all dialogue fade toasts
+- `no_dialogue_toasts_sp`   - when 1, disable dialogue fade toasts in singleplayer
+- `no_dialogue_toasts_coop` - when 1, disable dialogue fade toasts in coop
+- `no_auto_category`        - when 1, disable automatic speedrun category selection
+- `coop_cm_enable_hud`      - when 1, don't disable the CM stats HUD in coop
+- `coop_no_stopvideos`      - when 1, don't run `stopvideos` on every coop load
+- `sp_cm_demo_name`         - defaults to `chapter$chapter/$map/%Y-%m-%d_%H-%M-%S`
+- `coop_cm_demo_name`       - defaults to `$role/course$course/$map/%Y-%m-%d_%H-%M-%S`
 
 Demo names may use the following strings:
 - `$chapter` / `$course` - interchangable. The number of the chapter (e.g. `8`)
