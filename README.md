@@ -30,8 +30,10 @@ By default, the configs will try to automatically detect the right
 category when you load into a map. To disable this, see the
 'Customisation svars' section below. Note that singleplayer any% and
 coop All Courses cannot be detected; if you are running these
-categories, you must manually switch to them. While one of these two
-categories is selected, the auto-detection system is disabled.
+categories, you must manually switch to them.
+
+After manually selecting a category, the automatic selection will not be
+run until the `auto` command is run to re-enable it.
 
 ## Binds
 
@@ -85,3 +87,16 @@ recommended* you put any "personal" configuration (e.g. setting svars,
 performing HUD customisation) in `extra.cfg`. This file will be run
 once by the autoexec. This file should be used in order to make updating
 this set of config files easier.
+
+In this file you can define extra categories if you wish, using the
+`add_cat` and `detect_cat` commands. For instance, to add a category
+named "tournament" and automatically switch to it when on a specific
+map, simply add this to `extra.cfg`:
+
+	add_cat tournament
+	detect_cat tournament "map=workshop/123456/map_name"
+
+When this category is activated, as well as every map load in which it
+is enabled, the file `cats/tournament.cfg` will be `exec`d; this file
+should therefore contain the necessary configuration for the category.
+Look at the built-in category files for an example.
