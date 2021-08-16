@@ -71,8 +71,12 @@ playing CM.
 - `no_auto_category`        - when 1, disable automatic speedrun category selection
 - `coop_cm_enable_hud`      - when 1, don't disable the CM stats HUD in coop
 - `coop_no_stopvideos`      - when 1, don't run `stopvideos` on every coop load
-- `sp_cm_demo_name`         - defaults to `chapter$chapter/$map/%Y-%m-%d_%H-%M-%S`
-- `coop_cm_demo_name`       - defaults to `$role/course$course/$map/%Y-%m-%d_%H-%M-%S`
+- `fullgame_demo_name`      - defaults to `%Y-%m-%d_%H-%M-%S/fullgame`
+- `anypc_demo_name`         - defaults to `%Y-%m-%d_%H-%M-%S/anypc`
+- `sp_cm_demo_name`         - defaults to `chapter$chapter/$map/$map`
+- `amc_demo_name`           - defaults to `$role/%Y-%m-%d_%H-%M-%S/amc`
+- `ac_demo_name`            - defaults to `$role/%Y-%m-%d_%H-%M-%S/ac`
+- `coop_cm_demo_name`       - defaults to `$role/course$course/$map/$map`
 
 Demo names may use the following strings:
 - `$chapter` / `$course` - interchangable. The number of the chapter (e.g. `8`)
