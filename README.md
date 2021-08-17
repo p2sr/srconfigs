@@ -1,6 +1,6 @@
-# simple-configs
+# srconfigs
 
-A simple set of configuration files for Portal 2 speedrunning with SAR.
+A simple-to-use set of configuration files for Portal 2 speedrunning with SAR.
 
 ## Installation
 
