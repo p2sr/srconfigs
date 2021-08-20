@@ -94,7 +94,8 @@ Rather than modifying this autoexec.cfg directly, it is *highly
 recommended* you put any "personal" configuration (e.g. setting svars,
 performing HUD customisation) in `extra.cfg`. This file will be run
 once by the autoexec. This file should be used in order to make updating
-this set of config files easier.
+this set of config files easier; as long as the autoexec is never
+modified, updates should be a simple drag-and-drop process.
 
 In this file you can define extra categories if you wish, using the
 `add_cat` and `detect_cat` commands. For instance, to add a category
