@@ -45,14 +45,18 @@ correctly:
 You can bind the following commands:
 - `funneling_toggle` - toggle portal funneling
 - `fullbright_toggle` - toggle fullbright
-- `sensitivity_toggle` - toggle low sensitivity
+- `lowsens_toggle` - toggle low sensitivity
 - `useswap_toggle` - toggle scrollup being use
-- `+supershoot` - hold to enable scrollup being shoot
+- `supershoot_toggle` - toggle scroll being shoot
 - `30fps_toggle` - toggle 30fps mode (for coop button glitches and certain SLA tricks)
 - `contimes_toggle` - toggle seeing contimes text (e.g. for double dialogue skip)
 - `dialogue_toggle` - toggle the dialogue from glados, wheatley, and the announcer
 - `do_load <save name>` - load a save only if in non-CM singleplayer
 - `do_reset` - reset your run
+
+All of the `_toggle` binds also have `+`/`-` versions; e.g.
+`+supershoot` can be bound to enable supershoot only while a key is
+held.
 
 The aliases `cm_only` and `non_cm_only` can be used to make a bind only
 effective in certain cases, to handle rule differences between the
