@@ -35,6 +35,10 @@ categories, you must manually switch to them.
 After manually selecting a category, the automatic selection will not be
 run until the `auto` command is run to re-enable it.
 
+Note that in mods, only the `fullgame` category exists from the above.
+Some mods also add a simple `il` category for doing individual level
+runs.
+
 ## Binds
 
 You *must* set the following binds for the configs to function
@@ -100,6 +104,7 @@ text corresponding to fullbright. The text IDs are below.
 - `amc_demo_name`           - defaults to `$role/%Y-%m-%d_%H-%M-%S/amc`
 - `ac_demo_name`            - defaults to `$role/%Y-%m-%d_%H-%M-%S/ac`
 - `coop_cm_demo_name`       - defaults to `$role/course$course/$map/$map`
+- `il_demo_name`            - defaults to `chapter$chapter/$map/$map`
 
 Demo names may use the following strings:
 - `$chapter` / `$course` - interchangable. The number of the chapter (e.g. `8`)
