@@ -67,6 +67,25 @@ playing CM.
 [CM boards]: https://board.portal2.sr
 [speedrun.com]: https://speedrun.com/portal_2
 
+## HUD text
+
+Every toggle has a piece of associated HUD text which can be shown or
+hidden at will. By default, the texts corresponding to funneling and
+dialogue are shown.
+
+The text visibility can be changed using `sar_hud_show_text` and
+`sar_hud_hide_text`; for instance, `sar_hud_show_text 2` will show the
+text corresponding to fullbright. The text IDs are below.
+
+- 0: dialogue
+- 1: funneling
+- 2: fullbright
+- 3: lowsens
+- 4: useswap
+- 5: supershoot
+- 6: 30fps
+- 7: contimes
+
 ## Customisation svars
 
 - `no_dialogue_toasts`      - when 1, disable all dialogue fade toasts
