@@ -98,6 +98,7 @@ text corresponding to fullbright. The text IDs are below.
 - `no_auto_category`        - when 1, disable automatic speedrun category selection
 - `coop_cm_enable_hud`      - when 1, don't disable the CM stats HUD in coop
 - `coop_no_stopvideos`      - when 1, don't run `stopvideos` on every coop load
+- `anypc_transition_time`   - defaults to 0. `ui_loadingscreen_transition_time` for the `anypc` category
 - `fullgame_demo_name`      - defaults to `%Y-%m-%d_%H-%M-%S/fullgame`
 - `anypc_demo_name`         - defaults to `%Y-%m-%d_%H-%M-%S/anypc`
 - `sp_cm_demo_name`         - defaults to `chapter$chapter/$map/$map`
