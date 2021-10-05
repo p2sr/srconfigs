@@ -100,6 +100,7 @@ text corresponding to fullbright. The text IDs are below.
 - `coop_cm_enable_hud`      - when 1, don't disable the CM stats HUD in coop
 - `coop_no_stopvideos`      - when 1, don't run `stopvideos` on every coop load
 - `anypc_transition_time`   - defaults to 0. `ui_loadingscreen_transition_time` for the `anypc` category
+- `demo_folder_name`        - defaults to `demos`
 - `fullgame_demo_name`      - defaults to `%Y-%m-%d_%H-%M-%S/fullgame`
 - `anypc_demo_name`         - defaults to `%Y-%m-%d_%H-%M-%S/anypc`
 - `sp_cm_demo_name`         - defaults to `chapter$chapter/$map/$map`
