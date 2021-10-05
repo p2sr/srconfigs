@@ -95,6 +95,7 @@ text corresponding to fullbright. The text IDs are below.
 - `no_dialogue_toasts`      - when 1, disable all dialogue fade toasts
 - `no_dialogue_toasts_sp`   - when 1, disable dialogue fade toasts in singleplayer
 - `no_dialogue_toasts_coop` - when 1, disable dialogue fade toasts in coop
+- `show_blank_fades`        - when 1, show [no fade] for maps that don't have a dialogue fade. defaults to 1.
 - `no_auto_category`        - when 1, disable automatic speedrun category selection
 - `coop_cm_enable_hud`      - when 1, don't disable the CM stats HUD in coop
 - `coop_no_stopvideos`      - when 1, don't run `stopvideos` on every coop load
