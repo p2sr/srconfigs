@@ -46,6 +46,9 @@ correctly:
 - `bind mwheelup +scrollup`
 - `bind mwheeldown +scrolldown`
 
+When used in Portal Reloaded, the command to shoot a time portal is `+attack3`. Therefore you should set this bind:
+- `bind mouse3 +attack3`
+
 You can bind the following commands:
 - `funneling_toggle` - toggle portal funneling
 - `fullbright_toggle` - toggle fullbright
