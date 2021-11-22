@@ -98,9 +98,10 @@ text corresponding to fullbright. The text IDs are below.
 - `no_dialogue_toasts`      - when 1, disable all dialogue fade toasts
 - `no_dialogue_toasts_sp`   - when 1, disable dialogue fade toasts in singleplayer
 - `no_dialogue_toasts_coop` - when 1, disable dialogue fade toasts in coop
-- `show_blank_fades`        - when 1, show [no fade] for maps that don't have a dialogue fade. defaults to 1.
+- `show_blank_fades`        - when 1, show [no fade] for maps that don't have a dialogue fade. Defaults to 1.
 - `coop_cm_enable_hud`      - when 1, don't disable the CM stats HUD in coop
 - `coop_no_stopvideos`      - when 1, don't run `stopvideos` on every coop load
+- `cm_attempt_counter`      - when 1, show an attempt counter on the SAR HUD in CM. Defaults to 1.
 - `anypc_transition_time`   - defaults to 0. `ui_loadingscreen_transition_time` for the `anypc` category
 - `demo_folder_name`        - defaults to `demos`
 - `fullgame_demo_name`      - defaults to `%Y-%m-%d_%H-%M-%S/fullgame`
