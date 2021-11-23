@@ -12,16 +12,14 @@ installed.
 
 ## Categories
 
-These configuration files support the following speedrun categories in
-singleplayer:
+These configuration files support the following speedrun categories:
 - Inbounds No SLA (`fullgame`)
 - any% (`anypc`)
 - Singleplayer Challenge Mode (`sp_cm`)
-
-And the following in coop:
 - All Main Courses (`amc`)
 - All Courses (`ac`)
 - Coop Challenge Mode (`coop_cm`)
+- Chapter ILs (`chapter_il`)
 
 To manually switch to a category, simply run the category name as a
 command; for instance, the command `anypc` activates the any% category.
@@ -102,6 +100,8 @@ text corresponding to fullbright. The text IDs are below.
 - `coop_cm_enable_hud`      - when 1, don't disable the CM stats HUD in coop
 - `coop_no_stopvideos`      - when 1, don't run `stopvideos` on every coop load
 - `cm_attempt_counter`      - when 1, show an attempt counter on the SAR HUD in CM. Defaults to 1.
+- `chapter_il_betsrighter`  - when 1, give betsrighter in relevant chapter IL runs (i.e. chapter 2-9 in Portal 2). Defaults to 1.
+- `chapter_il_fly`          - when 1, give fly in relevant chapter IL runs (i.e. chapter 9 in Portal 2). Defaults to 1.
 - `anypc_transition_time`   - defaults to 0. `ui_loadingscreen_transition_time` for the `anypc` category
 - `demo_folder_name`        - defaults to `demos`
 - `fullgame_demo_name`      - defaults to `%Y-%m-%d_%H-%M-%S/fullgame`
@@ -111,12 +111,25 @@ text corresponding to fullbright. The text IDs are below.
 - `ac_demo_name`            - defaults to `$role/%Y-%m-%d_%H-%M-%S/ac`
 - `coop_cm_demo_name`       - defaults to `$role/course$course/$map/$map`
 - `il_demo_name`            - defaults to `chapter$chapter/$map/$map`
+- `chapter_il_demo_name`    - defaults to `$role/$chapter_course/%Y-%m-%d_%H-%M-%S/$chapter_course`
 
 Demo names may use the following strings:
 - `$chapter` / `$course` - interchangable. The number of the chapter (e.g. `8`)
 - `$chapter_name` / `$course_name` - interchangable. The name of the chapter (e.g. `the-itch`)
+- `$chapter_course` - e.g. `chapter1` in SP or `course1` in coop
 - `$map` - the human-readable map name (e.g. `triple-laser`)
 - `$role` - in coop, either `blue` or `orange`
+
+## Chapter ILs
+
+Chapter ILs have an extra command you should use in order to set which
+chapter you're running. The command `run_cur_chapter` will set up
+chapter ILs to run the chapter for the map you're currently in; or
+alternatively, you can use the command `run_chapter 5` (for instance) to
+set it up to run chapter 5. This will automatically force the
+`chapter_il` category (so you should use `auto` to later switch to other
+categories). Once you've set the chapter to run, you can use your reset
+bind etc as normal.
 
 ## Extra configuration
 
