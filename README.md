@@ -25,8 +25,7 @@ To manually switch to a category, simply run the category name as a
 command; for instance, the command `anypc` activates the any% category.
 
 By default, the configs will try to automatically detect the right
-category when you load into a map. To disable this, see the
-'Customisation svars' section below. Note that singleplayer any% and
+category when you load into a map. Note that singleplayer any% and
 coop All Courses cannot be detected; if you are running these
 categories, you must manually switch to them.
 
