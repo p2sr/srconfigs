@@ -24,13 +24,13 @@ These configuration files support the following speedrun categories:
 To manually switch to a category, simply run the category name as a
 command; for instance, the command `anypc` activates the any% category.
 
-By default, the configs will try to automatically detect the right
+The configs will try to automatically detect the right
 category when you load into a map. Note that singleplayer any% and
 coop All Courses cannot be detected; if you are running these
 categories, you must manually switch to them.
 
 After manually selecting a category, the automatic selection will not be
-run until the `auto` command is run to re-enable it.
+re-enabled until the `auto` command is ran.
 
 Note that in mods, only the `fullgame` category exists from the above.
 Some mods also add a simple `il` category for doing individual level
@@ -63,13 +63,7 @@ All of the `_toggle` binds also have `+`/`-` versions; e.g.
 held.
 
 The aliases `cm_only` and `non_cm_only` can be used to make a bind only
-effective in certain cases, to handle rule differences between the
-[CM boards] and [speedrun.com]. For instance, a key bound to `cm_only
-funneling_toggle` would toggle portal funneling if and only if you were
-playing CM.
-
-[CM boards]: https://board.portal2.sr
-[speedrun.com]: https://speedrun.com/portal_2
+effective in certain cases, e.g. `bind r "cm_only restart_level"`
 
 ## HUD text
 
