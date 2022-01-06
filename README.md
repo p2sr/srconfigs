@@ -98,6 +98,7 @@ text corresponding to fullbright. The text IDs are below.
 - `chapter_il_fly`          - when 1, give fly in relevant chapter IL runs (i.e. chapter 9 in Portal 2). Defaults to 1.
 - `useswap_invert`          - when 1, invert the `useswap` toggle so that `+useswap` makes both scrolls jump
 - `useswap_both`            - when 1, make the `useswap` toggle affect mwheeldown as well as mwheelup
+- `cm_keep_pb_only`         - when 1, only store PB demos in CM. Requires CM board autosubmission to be set up!
 - `fullbright_amount`       - defaults to 0.1; the value to use for `mat_ambient_light` when toggling fullbright
 - `anypc_transition_time`   - defaults to 0. `ui_loadingscreen_transition_time` for the `anypc` category
 - `demo_folder_name`        - defaults to `demos`
