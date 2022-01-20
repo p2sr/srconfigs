@@ -46,6 +46,9 @@ correctly:
 When used in Portal Reloaded, the command to shoot a time portal is `+attack3`. Therefore you should set this bind:
 - `bind mouse3 +attack3`
 
+It is recommended to change your chat bind (`say`) to the more general `chat` provided by srconfigs.
+- `bind <key> chat`
+
 You can bind the following commands:
 - `funneling_toggle` - toggle portal funneling
 - `fullbright_toggle` - toggle fullbright
@@ -98,6 +101,7 @@ svars using the `svar_set` command. For instance,
 - `coop_no_stopvideos`      - when 1, don't run `stopvideos` on every coop load
 - `coop_no_remoteview`      - when 1, don't enable remote view on every coop load
 - `cm_attempt_counter`      - when 1, show an attempt counter on the SAR HUD in CM. Defaults to 1.
+- `cm_ghost_server`         - when 1, connect to a world-wide ghost server when playing CM. Off by default.
 - `chapter_il_betsrighter`  - when 1, give betsrighter in relevant chapter IL runs (i.e. chapter 2-9 in Portal 2). Defaults to 1.
 - `chapter_il_fly`          - when 1, give fly in relevant chapter IL runs (i.e. chapter 9 in Portal 2). Defaults to 1.
 - `useswap_invert`          - when 1, invert the `useswap` toggle so that `+useswap` makes both scrolls jump
