@@ -1,6 +1,6 @@
 # srconfigs
 
-A simple-to-use set of configuration files for Portal 2 speedrunning with SAR.
+A simple-to-use set of configuration files for speedrunning Portal 2 and its mods with SAR.
 
 ## Installation
 
