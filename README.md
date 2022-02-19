@@ -20,6 +20,7 @@ These configuration files support the following speedrun categories:
 - All Courses (`ac`)
 - Coop Challenge Mode (`coop_cm`)
 - Chapter ILs (`chapter_il`)
+- Celeste Mode (`celeste` - P2SM only)
 
 To manually switch to a category, simply run the category name as a
 command; for instance, the command `anypc` activates the any% category.
