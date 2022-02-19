@@ -53,7 +53,7 @@ It is recommended to change your chat bind (`say`) to the more general `chat` pr
 You can bind the following commands:
 - `funneling_toggle` - toggle portal funneling
 - `fullbright_toggle` - toggle fullbright
-- `lowsens_toggle` - toggle low sensitivity
+- `customsens_toggle <sensitivity>` - toggle custom sensitivity
 - `useswap_toggle` - toggle scrollup being use
 - `supershoot_toggle` - toggle scroll being shoot
 - `30fps_toggle` - toggle 30fps mode (for coop button glitches and certain SLA tricks)
@@ -82,7 +82,7 @@ text corresponding to fullbright. The text IDs are below.
 - 0: dialogue
 - 1: funneling
 - 2: fullbright
-- 3: lowsens
+- 3: customsens
 - 4: useswap
 - 5: supershoot
 - 6: 30fps
