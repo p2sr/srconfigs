@@ -126,6 +126,7 @@ Demo names may use the following strings:
 - `$chapter_name` / `$course_name` - interchangable. The name of the chapter (e.g. `the-itch`)
 - `$chapter_course` - e.g. `chapter1` in SP or `course1` in coop
 - `$map` - the human-readable map name (e.g. `triple-laser`)
+- `$formatted_map` - the human-readable map name in title case and spaced (e.g. `Triple Laser`)
 - `$role` - in coop, either `blue` or `orange`
 
 ## Chapter ILs
