@@ -94,6 +94,8 @@ You can customise the behaviour of srconfigs by setting the following
 svars using the `svar_set` command. For instance,
 `svar_set no_dialogue_toasts 1` will disable dialogue fade toasts.
 
+- `sp_use_save`             - Selects which save to use for Portal 2 Fullgame, Any%, and Chapter 1 runs. 0 - no save, 1 - containerridesave, 2 - vault save. Defaults to 1.
+- `mel_use_save`            - Selects which save to use for Portal Stories: Mel runs. 0 - no save, 1 - tram save. Defaults to 0.
 - `no_dialogue_toasts`      - when 1, disable all dialogue fade toasts
 - `no_dialogue_toasts_sp`   - when 1, disable dialogue fade toasts in singleplayer
 - `no_dialogue_toasts_coop` - when 1, disable dialogue fade toasts in coop
