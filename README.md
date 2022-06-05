@@ -94,7 +94,7 @@ You can customise the behaviour of srconfigs by setting the following
 svars using the `svar_set` command. For instance,
 `svar_set no_dialogue_toasts 1` will disable dialogue fade toasts.
 
-- `use_vault_save`          - when 1, timing for Portal 2 singleplayer category uses the new vault save timing. Defaults to 0.
+- `sp_use_save`             - Changes time offset and do_reset binds for different Singleplayer saves. (0 - no save, 1 - containerridesave, 2 - vault save). Defaults to 1.
 - `no_dialogue_toasts`      - when 1, disable all dialogue fade toasts
 - `no_dialogue_toasts_sp`   - when 1, disable dialogue fade toasts in singleplayer
 - `no_dialogue_toasts_coop` - when 1, disable dialogue fade toasts in coop
