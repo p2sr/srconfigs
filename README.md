@@ -100,7 +100,7 @@ svars using the `svar_set` command. For instance,
 - `no_taunt_toasts_coop`    - when 1, disable [taunt] toasts in coop
 - `show_map_name_coop`      - when 1, show the current map name in coop. Defaults to 1.
 - `show_blank_fades`        - when 1, show [no fade] for maps that don't have a dialogue fade. Defaults to 1.
-- `coop_cm_enable_hud`      - when 1, don't disable the CM stats HUD in coop
+- `coop_cm_enable_hud`      - when 1, don't disable the CM stats HUD in coop. Defaults to 1.
 - `coop_no_stopvideos`      - when 1, don't run `stopvideos` on every coop load
 - `coop_no_remoteview`      - when 1, don't enable remote view on every coop load
 - `cm_attempt_counter`      - when 1, show an attempt counter on the SAR HUD in CM. Defaults to 1.
