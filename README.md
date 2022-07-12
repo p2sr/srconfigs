@@ -115,6 +115,7 @@ svars using the `svar_set` command. For instance,
 - `cm_keep_pb_only`         - when 1, only store PB demos in CM. Requires CM board autosubmission to be set up!
 - `fullbright_amount`       - defaults to 0.1; the value to use for `mat_ambient_light` when toggling fullbright
 - `anypc_transition_time`   - defaults to 0. `ui_loadingscreen_transition_time` for the `anypc` category
+- `enable_menu_transitions` - defaults to 0. Re-enables the transition effects in menus.
 - `demo_folder_name`        - defaults to `demos`
 - `fullgame_demo_name`      - defaults to `%Y-%m-%d_%H-%M-%S/fullgame`
 - `anypc_demo_name`         - defaults to `%Y-%m-%d_%H-%M-%S/anypc`
