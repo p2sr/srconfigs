@@ -125,6 +125,8 @@ svars using the `svar_set` command. For instance,
 - `coop_cm_demo_name`       - defaults to `$role/course$course/$map/$map`
 - `il_demo_name`            - defaults to `chapter$chapter/$map/$map`
 - `chapter_il_demo_name`    - defaults to `$role/$chapter_course/%Y-%m-%d_%H-%M-%S/$chapter_course`
+- `celeste_demo_name`       - defaults to `%Y-%m-%d_%H-%M-%S/celeste`
+- `reverse_demo_name`       - defaults to `%Y-%m-%d_%H-%M-%S/reverse`
 
 Demo names may use the following strings:
 - `$chapter` / `$course` - interchangable. The number of the chapter (e.g. `8`)
