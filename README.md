@@ -92,50 +92,57 @@ text corresponding to fullbright. The text IDs are below.
 ## Customisation svars
 
 You can customise the behaviour of srconfigs by setting the following
-svars using the `svar_set` command. For instance,
-`svar_set no_dialogue_toasts 1` will disable dialogue fade toasts.
+svars using the `svar_set` command.
 
-- `sp_use_save`             - Selects which save to use for Portal 2 Fullgame, Any%, and Chapter 1 runs. 0 - no save, 1 - containerridesave, 2 - vault save. Defaults to 1.
-- `mel_use_save`            - Selects which save to use for Portal Stories: Mel runs. 0 - no save, 1 - tram save. Defaults to 0.
-- `no_dialogue_toasts`      - when 1, disable all dialogue fade toasts
-- `no_dialogue_toasts_sp`   - when 1, disable dialogue fade toasts in singleplayer
-- `no_dialogue_toasts_coop` - when 1, disable dialogue fade toasts in coop
-- `no_taunt_toasts_coop`    - when 1, disable [taunt] toasts in coop
-- `show_map_name_coop`      - when 1, show the current map name in coop. Defaults to 1.
-- `show_blank_fades`        - when 1, show [no fade] for maps that don't have a dialogue fade. Defaults to 1.
-- `coop_cm_enable_hud`      - when 1, don't disable the CM stats HUD in coop. Defaults to 1.
-- `coop_no_stopvideos`      - when 1, don't run `stopvideos` on every coop load
-- `coop_no_remoteview`      - when 1, don't enable remote view on every coop load
-- `cm_attempt_counter`      - when 1, show an attempt counter on the SAR HUD in CM. Defaults to 1.
-- `cm_ghost_server`         - when 1, connect to a world-wide ghost server when playing CM. Off by default.
-- `chapter_il_betsrighter`  - when 1, give betsrighter in relevant chapter IL runs (i.e. chapter 2-9 in Portal 2). Defaults to 1.
-- `chapter_il_fly`          - when 1, give fly in relevant chapter IL runs (i.e. chapter 9 in Portal 2). Defaults to 1.
-- `useswap_invert`          - when 1, invert the `useswap` toggle so that `+useswap` makes both scrolls jump
-- `useswap_both`            - when 1, make the `useswap` toggle affect mwheeldown as well as mwheelup
-- `supershoot_use_orange`   - when 1, make the `supershoot` toggle shoot the orange portal instead of blue
-- `cm_keep_pb_only`         - when 1, only store PB demos in CM. Requires CM board autosubmission to be set up!
-- `fullbright_amount`       - defaults to 0.1; the value to use for `mat_ambient_light` when toggling fullbright
-- `anypc_transition_time`   - defaults to 0. `ui_loadingscreen_transition_time` for the `anypc` category
-- `enable_menu_transitions` - defaults to 0. Re-enables the transition effects in menus.
-- `demo_folder_name`        - defaults to `demos`
-- `fullgame_demo_name`      - defaults to `%Y-%m-%d_%H-%M-%S/fullgame`
-- `anypc_demo_name`         - defaults to `%Y-%m-%d_%H-%M-%S/anypc`
-- `sp_cm_demo_name`         - defaults to `chapter$chapter/$map/$map`
-- `amc_demo_name`           - defaults to `$role/%Y-%m-%d_%H-%M-%S/amc`
-- `ac_demo_name`            - defaults to `$role/%Y-%m-%d_%H-%M-%S/ac`
-- `coop_cm_demo_name`       - defaults to `$role/course$course/$map/$map`
-- `il_demo_name`            - defaults to `chapter$chapter/$map/$map`
-- `chapter_il_demo_name`    - defaults to `$role/$chapter_course/%Y-%m-%d_%H-%M-%S/$chapter_course`
-- `celeste_demo_name`       - defaults to `%Y-%m-%d_%H-%M-%S/celeste`
-- `reverse_demo_name`       - defaults to `%Y-%m-%d_%H-%M-%S/reverse`
+For instance, `svar_set no_dialogue_toasts 1` will disable dialogue fade toasts.
+
+|           Name            | Default | Description
+| ------------------------- | :-----: | -----------
+| `sp_use_save`             |    1    | Selects which save to use for Portal 2 Fullgame, Any%, and Chapter 1 runs.<br>0 - no save, 1 - [containerridesave](https://drive.google.com/open?id=1ZwhBdnYNeFi2pVEvhlAq_EU1OD1WFS8k), 2 - [vault save](https://www.speedrun.com/resourceasset/azdcg).
+| `mel_use_save`            |    0    | Selects which save to use for Portal Stories: Mel runs.<br>0 - no save, 1 - [tram save](https://cdn.discordapp.com/attachments/811780246608281650/983275907022204938/tram.sav).
+| `no_dialogue_toasts`      |    0    | When 1, disable all dialogue fade toasts.
+| `no_dialogue_toasts_sp`   |    0    | When 1, disable dialogue fade toasts in singleplayer.
+| `no_dialogue_toasts_coop` |    0    | When 1, disable dialogue fade toasts in coop.
+| `no_taunt_toasts_coop`    |    0    | When 1, disable `[taunt]` toasts in coop.
+| `show_map_name_coop`      |    1    | When 1, show the current map name in coop.
+| `show_blank_fades`        |    1    | When 1, show `[no fade]` for maps that don't have a dialogue fade.
+| `coop_cm_enable_hud`      |    1    | When 1, don't disable the CM stats HUD in coop.
+| `coop_no_stopvideos`      |    0    | When 1, don't run `stopvideos` on every coop load.
+| `coop_no_remoteview`      |    0    | When 1, don't enable remote view on every coop load.
+| `cm_attempt_counter`      |    1    | When 1, show an attempt counter on the SAR HUD in CM.
+| `cm_ghost_server`         |   -1    | When 1, connect to a world-wide ghost server when playing CM.
+| `chapter_il_betsrighter`  |    1    | When 1, give [Betsrighter](https://wiki.portal2.sr/Wakeup) in relevant Chapter IL runs. (i.e. chapter 2-9 in Portal 2)
+| `chapter_il_fly`          |    1    | When 1, give [Crouch Fly](https://wiki.portal2.sr/Crouch_Flying_Glitch) in relevant Chapter IL runs, (i.e. chapter 9 in Portal 2)
+| `useswap_invert`          |    0    | When 1, invert the useswap toggle so that `+useswap` makes both scrolls jump.
+| `useswap_both`            |    0    | When 1, make the useswap toggle affect `+scrolldown` as well as `+scrollup`.
+| `supershoot_use_orange`   |    0    | When 1, make the supershoot toggle shoot the orange portal instead of blue.
+| `cm_keep_pb_only`         |    0    | When 1, only store PB demos in CM. Requires [CM board autosubmission](https://youtu.be/3GLUW4sGmLs?t=392) to be set up!
+| `fullbright_amount`       |   0.1   | The value to use for `mat_ambient_light` when toggling fullbright.
+| `anypc_transition_time`   |    0    | `ui_loadingscreen_transition_time` for the `anypc` category.
+| `enable_menu_transitions` |    0    | Re-enables the transition effects in menus.
+| `demo_folder_name`        |  demos  | Name of the folder for demos.<br>e.g. `.../steamapps/common/Portal 2/portal2/demos/...`
+
+|          Name          | Default
+| ---------------------: | :------
+| `fullgame_demo_name`   | `%Y-%m-%d_%H-%M-%S/fullgame`
+| `anypc_demo_name`      | `%Y-%m-%d_%H-%M-%S/anypc`
+| `sp_cm_demo_name`      | `chapter$chapter/$map/$map`
+| `amc_demo_name`        | `$role/%Y-%m-%d_%H-%M-%S/amc`
+| `ac_demo_name`         | `$role/%Y-%m-%d_%H-%M-%S/ac`
+| `coop_cm_demo_name`    | `$role/course$course/$map/$map`
+| `il_demo_name`         | `chapter$chapter/$map/$map`
+| `chapter_il_demo_name` | `$role/$chapter_course/%Y-%m-%d_%H-%M-%S/$chapter_course`
+| `celeste_demo_name`    | `%Y-%m-%d_%H-%M-%S/celeste`
+| `reverse_demo_name`    | `%Y-%m-%d_%H-%M-%S/reverse`
 
 Demo names may use the following strings:
-- `$chapter` / `$course` - interchangable. The number of the chapter (e.g. `8`)
-- `$chapter_name` / `$course_name` - interchangable. The name of the chapter (e.g. `the-itch`)
+- `$chapter` / `$course` - interchangeable. The number of the chapter (e.g. `8`)
+- `$chapter_name` / `$course_name` - interchangeable. The name of the chapter (e.g. `the-itch`)
 - `$chapter_course` - e.g. `chapter1` in SP or `course1` in coop
 - `$map` - the human-readable map name (e.g. `triple-laser`)
 - `$formatted_map` - the human-readable map name in title case and spaced (e.g. `Triple Laser`)
 - `$role` - in coop, either `blue` or `orange`
+- Other [strftime](https://cplusplus.com/reference/ctime/strftime/) timestamp syntax
 
 ## Chapter ILs
 
