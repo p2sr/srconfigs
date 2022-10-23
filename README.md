@@ -23,6 +23,7 @@ These configuration files support the following speedrun categories:
 - Chapter ILs (`chapter_il`)
 - Celeste Mode (`celeste` - P2SM only)
 - Reverse Mod (`reverse` - P2SM only)
+- Workshop
 
 To manually switch to a category, simply run the category name as a
 command; for instance, the command `anypc` activates the any% category.
@@ -143,6 +144,7 @@ For instance, `svar_set no_dialogue_toasts 1` will disable dialogue fade toasts.
 | `chapter_il_demo_name` | `$role/$chapter_course/%Y-%m-%d_%H-%M-%S/$chapter_course`
 | `celeste_demo_name`    | `%Y-%m-%d_%H-%M-%S/celeste`
 | `reverse_demo_name`    | `%Y-%m-%d_%H-%M-%S/reverse`
+| `workshop_demo_name`   | `%Y-%m-%d_%H-%M-%S/workshop`
 
 Demo names may use the following strings:
 
