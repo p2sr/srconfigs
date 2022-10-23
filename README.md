@@ -13,6 +13,7 @@ installed.
 ## Categories
 
 These configuration files support the following speedrun categories:
+
 - Inbounds No SLA (`fullgame`)
 - any% (`anypc`)
 - Singleplayer Challenge Mode (`sp_cm`)
@@ -42,16 +43,20 @@ runs.
 
 You *must* set the following binds for the configs to function
 correctly:
+
 - `bind mwheelup +scrollup`
 - `bind mwheeldown +scrolldown`
 
 When used in Portal Reloaded, the command to shoot a time portal is `+attack3`. Therefore you should set this bind:
+
 - `bind mouse3 +attack3`
 
 It is recommended to change your chat bind (`say`) to the more general `chat` provided by srconfigs.
+
 - `bind <key> chat`
 
 You can bind the following commands:
+
 - `funneling_toggle` - toggle portal funneling
 - `fullbright_toggle` - toggle fullbright
 - `customsens_toggle <sensitivity>` - toggle custom sensitivity
@@ -98,8 +103,8 @@ For instance, `svar_set no_dialogue_toasts 1` will disable dialogue fade toasts.
 
 |           Name            | Default | Description
 | ------------------------- | :-----: | -----------
-| `sp_use_save`             |    1    | Selects which save to use for Portal 2 Fullgame, Any%, and Chapter 1 runs.<br>0 - no save, 1 - [containerridesave](https://drive.google.com/open?id=1ZwhBdnYNeFi2pVEvhlAq_EU1OD1WFS8k), 2 - [vault save](https://www.speedrun.com/resourceasset/azdcg).
-| `mel_use_save`            |    0    | Selects which save to use for Portal Stories: Mel runs.<br>0 - no save, 1 - [tram save](https://cdn.discordapp.com/attachments/811780246608281650/983275907022204938/tram.sav).
+| `sp_use_save`             |    1    | Selects which save to use for Portal 2 Fullgame, Any%, and Chapter 1 runs.<br>0 - no save, 1 - [containerridesave], 2 - [vault save].
+| `mel_use_save`            |    0    | Selects which save to use for Portal Stories: Mel runs.<br>0 - no save, 1 - [tram save].
 | `no_dialogue_toasts`      |    0    | When 1, disable all dialogue fade toasts.
 | `no_dialogue_toasts_sp`   |    0    | When 1, disable dialogue fade toasts in singleplayer.
 | `no_dialogue_toasts_coop` |    0    | When 1, disable dialogue fade toasts in coop.
@@ -112,7 +117,7 @@ For instance, `svar_set no_dialogue_toasts 1` will disable dialogue fade toasts.
 | `cm_attempt_counter`      |    1    | When 1, show an attempt counter on the SAR HUD in CM.
 | `cm_ghost_server`         |   -1    | When 1, connect to a world-wide ghost server when playing CM.
 | `chapter_il_betsrighter`  |    1    | When 1, give [Betsrighter](https://wiki.portal2.sr/Wakeup) in relevant Chapter IL runs. (i.e. chapter 2-9 in Portal 2)
-| `chapter_il_fly`          |    1    | When 1, give [Crouch Fly](https://wiki.portal2.sr/Crouch_Flying_Glitch) in relevant Chapter IL runs, (i.e. chapter 9 in Portal 2)
+| `chapter_il_fly`          |    1    | When 1, give [Crouch Fly](https://wiki.portal2.sr/Crouch_Flying_Glitch) in relevant Chapter IL runs. (i.e. chapter 9 in Portal 2)
 | `useswap_invert`          |    0    | When 1, invert the useswap toggle so that `+useswap` makes both scrolls jump.
 | `useswap_both`            |    0    | When 1, make the useswap toggle affect `+scrolldown` as well as `+scrollup`.
 | `supershoot_use_orange`   |    0    | When 1, make the supershoot toggle shoot the orange portal instead of blue.
@@ -121,6 +126,10 @@ For instance, `svar_set no_dialogue_toasts 1` will disable dialogue fade toasts.
 | `anypc_transition_time`   |    0    | `ui_loadingscreen_transition_time` for the `anypc` category.
 | `enable_menu_transitions` |    0    | Re-enables the transition effects in menus.
 | `demo_folder_name`        |  demos  | Name of the folder for demos.<br>e.g. `.../steamapps/common/Portal 2/portal2/demos/...`
+
+[containerridesave]: https://drive.google.com/open?id=1ZwhBdnYNeFi2pVEvhlAq_EU1OD1WFS8k
+[vault save]: https://www.speedrun.com/resourceasset/azdcg
+[tram save]: https://cdn.discordapp.com/attachments/811780246608281650/983275907022204938/tram.sav
 
 |          Name          | Default
 | ---------------------: | :------
@@ -136,13 +145,16 @@ For instance, `svar_set no_dialogue_toasts 1` will disable dialogue fade toasts.
 | `reverse_demo_name`    | `%Y-%m-%d_%H-%M-%S/reverse`
 
 Demo names may use the following strings:
+
 - `$chapter` / `$course` - interchangeable. The number of the chapter (e.g. `8`)
 - `$chapter_name` / `$course_name` - interchangeable. The name of the chapter (e.g. `the-itch`)
 - `$chapter_course` - e.g. `chapter1` in SP or `course1` in coop
 - `$map` - the human-readable map name (e.g. `triple-laser`)
 - `$formatted_map` - the human-readable map name in title case and spaced (e.g. `Triple Laser`)
 - `$role` - in coop, either `blue` or `orange`
-- Other [strftime](https://cplusplus.com/reference/ctime/strftime/) timestamp syntax
+- Other [strftime] timestamp syntax
+
+[strftime]: https://cplusplus.com/reference/ctime/strftime
 
 ## Chapter ILs
 
@@ -169,8 +181,10 @@ In this file you can define extra categories if you wish, using the
 named "tournament" and automatically switch to it when on a specific
 map, simply add this to `extra.cfg`:
 
-	add_cat tournament
-	detect_cat tournament "map=workshop/123456/map_name"
+```cfg
+add_cat tournament
+detect_cat tournament "map=workshop/123456/map_name"
+```
 
 When this category is activated, as well as every map load in which it
 is enabled, the file `cats/tournament.cfg` will be `exec`d; this file
