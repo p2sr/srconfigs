@@ -23,7 +23,7 @@ These configuration files support the following speedrun categories:
 - Chapter ILs (`chapter_il`)
 - Celeste Mode (`celeste` - P2SM only)
 - Reverse Mod (`reverse` - P2SM only)
-- Workshop
+- Workshop (`workshop`)
 
 To manually switch to a category, simply run the category name as a
 command; for instance, the command `anypc` activates the any% category.
@@ -117,12 +117,12 @@ For instance, `svar_set no_dialogue_toasts 1` will disable dialogue fade toasts.
 | `coop_no_remoteview`      |    0    | When 1, don't enable remote view on every coop load.
 | `cm_attempt_counter`      |    1    | When 1, show an attempt counter on the SAR HUD in CM.
 | `cm_ghost_server`         |   -1    | When 1, connect to a world-wide ghost server when playing CM.
-| `chapter_il_betsrighter`  |    1    | When 1, give [Betsrighter](https://wiki.portal2.sr/Wakeup) in relevant Chapter IL runs. (i.e. chapter 2-9 in Portal 2)
-| `chapter_il_fly`          |    1    | When 1, give [Crouch Fly](https://wiki.portal2.sr/Crouch_Flying_Glitch) in relevant Chapter IL runs. (i.e. chapter 9 in Portal 2)
+| `chapter_il_betsrighter`  |    1    | When 1, give [Betsrighter] in relevant Chapter IL runs. (i.e. chapter 2-9 in Portal 2)
+| `chapter_il_fly`          |    1    | When 1, give [Crouch Fly] in relevant Chapter IL runs. (i.e. chapter 9 in Portal 2)
 | `useswap_invert`          |    0    | When 1, invert the useswap toggle so that `+useswap` makes both scrolls jump.
 | `useswap_both`            |    0    | When 1, make the useswap toggle affect `+scrolldown` as well as `+scrollup`.
 | `supershoot_use_orange`   |    0    | When 1, make the supershoot toggle shoot the orange portal instead of blue.
-| `cm_keep_pb_only`         |    0    | When 1, only store PB demos in CM. Requires [CM board autosubmission](https://youtu.be/3GLUW4sGmLs?t=392) to be set up!
+| `cm_keep_pb_only`         |    0    | When 1, only store PB demos in CM. Requires [CM board autosubmission] to be set up!
 | `fullbright_amount`       |   0.1   | The value to use for `mat_ambient_light` when toggling fullbright.
 | `anypc_transition_time`   |    0    | `ui_loadingscreen_transition_time` for the `anypc` category.
 | `enable_menu_transitions` |    0    | Re-enables the transition effects in menus.
@@ -131,6 +131,9 @@ For instance, `svar_set no_dialogue_toasts 1` will disable dialogue fade toasts.
 [containerridesave]: https://drive.google.com/open?id=1ZwhBdnYNeFi2pVEvhlAq_EU1OD1WFS8k
 [vault save]: https://www.speedrun.com/resourceasset/azdcg
 [tram save]: https://cdn.discordapp.com/attachments/811780246608281650/983275907022204938/tram.sav
+[Betsrighter]: https://wiki.portal2.sr/Wakeup
+[Crouch Fly]: https://wiki.portal2.sr/Crouch_Flying_Glitch
+[CM board autosubmission]: https://youtu.be/3GLUW4sGmLs?t=392
 
 |          Name          | Default
 | ---------------------: | :------
