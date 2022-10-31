@@ -164,13 +164,50 @@ Demo names may use the following strings:
 ## Chapter ILs
 
 Chapter ILs have an extra command you should use in order to set which
-chapter you're running. The command `run_cur_chapter` will set up
-chapter ILs to run the chapter for the map you're currently in; or
-alternatively, you can use the command `run_chapter 5` (for instance) to
-set it up to run chapter 5. This will automatically force the
-`chapter_il` category (so you should use `auto` to later switch to other
-categories). Once you've set the chapter to run, you can use your reset
-bind etc as normal.
+chapter you're running.
+
+The command `run_cur_chapter` will set up chapter ILs to run the chapter
+for the map you're currently in; or alternatively, you can use the command
+`run_chapter 5` (for instance) to set it up to run chapter 5.
+
+This will automatically force the `chapter_il` category (so you should use
+`auto` to later switch to other categories). Once you've set the chapter
+to run, you can use your reset bind etc as normal.
+
+## CM Autoreset
+
+Included in srconfigs is a feature that automatically resets CM
+([Challenge Mode]) runs if you don't reach splits by certain times.
+
+To use this functionality, make a folder in the uppercase Portal 2
+directory called `autoreset`. In this folder, make a file called
+`<map>.txt` where `<map>` is what you get from `svar_get map` while on
+the map, e.g. `portal-gun.txt`.
+
+Then, on each line in this file you can add the tick number at
+which the run should be reset. For example, with the following
+`portal-gun.txt`:
+
+```txt
+316
+686
+1098
+1930
+1930
+2004
+```
+
+The run would be automatically reset if you didn't reach the Door Trigger
+in 5.267 seconds (316 ticks), the Drop Trigger in 11.433 seconds
+(686 ticks), etc.
+
+The `sar_speedrun_result` command will output these tick values at the
+end of each split line.
+
+If a certain split doesn't matter, you can set its cutoff time to that
+of the next split, as shown above on the fourth split.
+
+[Challenge Mode]: https://wiki.portal2.sr/Challenge_Mode
 
 ## Extra configuration
 
