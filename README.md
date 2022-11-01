@@ -15,10 +15,11 @@ installed.
 These configuration files support the following speedrun categories:
 
 - Inbounds No SLA (`fullgame`)
-- any% (`anypc`)
+- Any% (`anypc`)
 - Singleplayer Challenge Mode (`sp_cm`)
 - All Main Courses (`amc`)
 - All Courses (`ac`)
+- Solo Coop (`solocoop`)
 - Coop Challenge Mode (`coop_cm`)
 - Chapter ILs (`chapter_il`)
 - Celeste Mode (`celeste` - P2SM only)
@@ -26,11 +27,11 @@ These configuration files support the following speedrun categories:
 - Workshop (`workshop`)
 
 To manually switch to a category, simply run the category name as a
-command; for instance, the command `anypc` activates the any% category.
+command; for instance, the command `anypc` activates the Any% category.
 
 The configs will try to automatically detect the right
-category when you load into a map. Note that singleplayer any% and
-coop All Courses cannot be detected; if you are running these
+category when you load into a map. Note that singleplayer Any%,
+coop All Courses, and Solo Coop cannot be detected; if you are running these
 categories, you must manually switch to them.
 
 After manually selecting a category, the automatic selection will not be
@@ -58,6 +59,7 @@ It is recommended to change your chat bind (`say`) to the more general `chat` pr
 
 You can bind the following commands:
 
+- `dialogue_toggle` - toggle the dialogue from glados, wheatley, and the announcer
 - `funneling_toggle` - toggle portal funneling
 - `fullbright_toggle` - toggle fullbright
 - `customsens_toggle <sensitivity>` - toggle custom sensitivity
@@ -65,7 +67,7 @@ You can bind the following commands:
 - `supershoot_toggle` - toggle scroll being shoot
 - `30fps_toggle` - toggle 30fps mode (for coop button glitches and certain SLA tricks)
 - `contimes_toggle` - toggle seeing contimes text (e.g. for double dialogue skip)
-- `dialogue_toggle` - toggle the dialogue from glados, wheatley, and the announcer
+- `swapsplit` - switch between the blue and orange robots when playing solocoop
 - `do_load <save name>` - load a save only if in non-CM singleplayer. (Deprecated - see `cm_only` and `non_cm_only` below)
 - `do_reset` - reset your run
 
@@ -73,8 +75,9 @@ All of the `_toggle` binds also have `+`/`-` versions; e.g.
 `+supershoot` can be bound to enable supershoot only while a key is
 held.
 
-The aliases `cm_only` and `non_cm_only` can be used to make a bind only
-effective in certain cases, e.g. `bind r "cm_only restart_level"`
+The aliases `cm_only`, `non_cm_only`, `cat_only`, and `non_cat_only`
+can be used to make a bind only effective in certain cases, e.g.
+`bind r "cm_only do_reset; cat_only amc stopvideos"`
 
 ## HUD text
 
@@ -115,6 +118,7 @@ For instance, `svar_set no_dialogue_toasts 1` will disable dialogue fade toasts.
 | `coop_cm_enable_hud`      |    1    | When 1, don't disable the CM stats HUD in coop.
 | `coop_no_stopvideos`      |    0    | When 1, don't run `stopvideos` on every coop load.
 | `coop_no_remoteview`      |    0    | When 1, don't enable remote view on every coop load.
+| `solocoop_fullscreen`     |    0    | When 1, have one fullscreen view in Solo Coop instead of splitscreen.
 | `cm_attempt_counter`      |    1    | When 1, show an attempt counter on the SAR HUD in CM.
 | `cm_ghost_server`         |   -1    | When 1, connect to a world-wide ghost server when playing CM.
 | `chapter_il_betsrighter`  |    1    | When 1, give [Betsrighter] in relevant Chapter IL runs. (i.e. chapter 2-9 in Portal 2)
@@ -142,6 +146,7 @@ For instance, `svar_set no_dialogue_toasts 1` will disable dialogue fade toasts.
 | `sp_cm_demo_name`      | `chapter$chapter/$map/$map`
 | `amc_demo_name`        | `$role/%Y-%m-%d_%H-%M-%S/amc`
 | `ac_demo_name`         | `$role/%Y-%m-%d_%H-%M-%S/ac`
+| `solocoop_demo_name`   | `%Y-%m-%d_%H-%M-%S/solocoop`
 | `coop_cm_demo_name`    | `$role/course$course/$map/$map`
 | `il_demo_name`         | `chapter$chapter/$map/$map`
 | `chapter_il_demo_name` | `$role/$chapter_course/%Y-%m-%d_%H-%M-%S/$chapter_course`
