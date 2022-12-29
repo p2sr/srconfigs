@@ -105,32 +105,33 @@ svars using the `svar_set` command.
 
 For instance, `svar_set no_dialogue_toasts 1` will disable dialogue fade toasts.
 
-|           Name            | Default | Description
-| ------------------------- | :-----: | -----------
-| `sp_use_save`             |    1    | Selects which save to use for Portal 2 Fullgame, Any%, and Chapter 1 runs.<br>0 - no save, 1 - [containerridesave], 2 - [vault save].
-| `mel_use_save`            |    0    | Selects which save to use for Portal Stories: Mel runs.<br>0 - no save, 1 - [tram save].
-| `no_dialogue_toasts`      |    0    | When 1, disable all dialogue fade toasts.
-| `no_dialogue_toasts_sp`   |    0    | When 1, disable dialogue fade toasts in singleplayer.
-| `no_dialogue_toasts_coop` |    0    | When 1, disable dialogue fade toasts in coop.
-| `no_taunt_toasts_coop`    |    0    | When 1, disable `[taunt]` toasts in coop.
-| `show_map_name_coop`      |    1    | When 1, show the current map name in coop.
-| `show_blank_fades`        |    1    | When 1, show `[no fade]` for maps that don't have a dialogue fade.
-| `coop_cm_enable_hud`      |    1    | When 1, don't disable the CM stats HUD in coop.
-| `coop_no_stopvideos`      |    0    | When 1, don't run `stopvideos` on every coop load.
-| `coop_no_remoteview`      |    0    | When 1, don't enable remote view on every coop load.
-| `solocoop_fullscreen`     |    0    | When 1, have one fullscreen view in Solo Coop instead of splitscreen.
-| `cm_attempt_counter`      |    1    | When 1, show an attempt counter on the SAR HUD in CM.
-| `cm_ghost_server`         |   -1    | When 1, connect to a world-wide ghost server when playing CM.
-| `chapter_il_betsrighter`  |    1    | When 1, give [Betsrighter] in relevant Chapter IL runs. (i.e. chapter 2-9 in Portal 2)
-| `chapter_il_fly`          |    1    | When 1, give [Crouch Fly] in relevant Chapter IL runs. (i.e. chapter 9 in Portal 2)
-| `useswap_invert`          |    0    | When 1, invert the useswap toggle so that `+useswap` makes both scrolls jump.
-| `useswap_both`            |    0    | When 1, make the useswap toggle affect `+scrolldown` as well as `+scrollup`.
-| `supershoot_use_orange`   |    0    | When 1, make the supershoot toggle shoot the orange portal instead of blue.
-| `cm_keep_pb_only`         |    0    | When 1, only store PB demos in CM. Requires [CM board autosubmission] to be set up!
-| `fullbright_amount`       |   0.1   | The value to use for `mat_ambient_light` when toggling fullbright.
-| `anypc_transition_time`   |    0    | `ui_loadingscreen_transition_time` for the `anypc` category.
-| `enable_menu_transitions` |    0    | Re-enables the transition effects in menus.
-| `demo_folder_name`        |  demos  | Name of the folder for demos.<br>e.g. `.../steamapps/common/Portal 2/portal2/demos/...`
+|            Name            | Default | Description
+| -------------------------- | :-----: | -----------
+| `sp_use_save`              |    1    | Selects which save to use for Portal 2 Fullgame, Any%, and Chapter 1 runs.<br>0 - no save, 1 - [containerridesave], 2 - [vault save].
+| `mel_use_save`             |    0    | Selects which save to use for Portal Stories: Mel runs.<br>0 - no save, 1 - [tram save].
+| `no_dialogue_toasts`       |    0    | When 1, disable all dialogue fade toasts.
+| `no_dialogue_toasts_sp`    |    0    | When 1, disable dialogue fade toasts in singleplayer.
+| `no_dialogue_toasts_coop`  |    0    | When 1, disable dialogue fade toasts in coop.
+| `no_taunt_toasts_coop`     |    0    | When 1, disable `[taunt]` toasts in coop.
+| `show_map_name_coop`       |    1    | When 1, show the current map name in coop.
+| `show_blank_fades`         |    1    | When 1, show `[no fade]` for maps that don't have a dialogue fade.
+| `coop_cm_enable_hud`       |    1    | When 1, don't disable the CM stats HUD in coop.
+| `coop_no_stopvideos`       |    0    | When 1, don't run `stopvideos` on every coop load.
+| `coop_no_remoteview`       |    0    | When 1, don't enable remote view on every coop load.
+| `coop_no_remoteview_lobby` |    0    | When 1, don't enable remote view on coop loads into the Lobby.<br>Turn this on if you experience lag in the Lobby.
+| `solocoop_fullscreen`      |    0    | When 1, have one fullscreen view in Solo Coop instead of splitscreen.
+| `cm_attempt_counter`       |    1    | When 1, show an attempt counter on the SAR HUD in CM.
+| `cm_ghost_server`          |   -1    | When 1, connect to a world-wide ghost server when playing CM.
+| `chapter_il_betsrighter`   |    1    | When 1, give [Betsrighter] in relevant Chapter IL runs. (i.e. chapter 2-9 in Portal 2)
+| `chapter_il_fly`           |    1    | When 1, give [Crouch Fly] in relevant Chapter IL runs. (i.e. chapter 9 in Portal 2)
+| `useswap_invert`           |    0    | When 1, invert the useswap toggle so that `+useswap` makes both scrolls jump.
+| `useswap_both`             |    0    | When 1, make the useswap toggle affect `+scrolldown` as well as `+scrollup`.
+| `supershoot_use_orange`    |    0    | When 1, make the supershoot toggle shoot the orange portal instead of blue.
+| `cm_keep_pb_only`          |    0    | When 1, only store PB demos in CM. Requires [CM board autosubmission] to be set up!
+| `fullbright_amount`        |   0.1   | The value to use for `mat_ambient_light` when toggling fullbright.
+| `anypc_transition_time`    |    0    | `ui_loadingscreen_transition_time` for the `anypc` category.
+| `enable_menu_transitions`  |    0    | Re-enables the transition effects in menus.
+| `demo_folder_name`         |  demos  | Name of the folder for demos.<br>e.g. `.../steamapps/common/Portal 2/portal2/demos/...`
 
 [containerridesave]: https://drive.google.com/open?id=1ZwhBdnYNeFi2pVEvhlAq_EU1OD1WFS8k
 [vault save]: https://www.speedrun.com/resourceasset/azdcg
