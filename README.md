@@ -6,9 +6,10 @@ A simple-to-use set of configuration files for speedrunning Portal 2 and its mod
 
 Place all these config files within the `Portal 2/portal2/cfg` directory, as is;
 they should automatically be run by the game as necessary. Ensure [SAR] is
-installed.
+installed. Refer to the [Speedrun Setup Guide] for a video tutorial.
 
 [SAR]: https://github.com/p2sr/SourceAutoRecord
+[Speedrun Setup Guide]: https://youtu.be/fnFenfXjrtg?t=37
 
 ## Categories
 
