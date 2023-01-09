@@ -68,6 +68,7 @@ You can bind the following commands:
 - `supershoot_toggle` - toggle scroll being shoot
 - `30fps_toggle` - toggle 30fps mode (for coop button glitches and certain SLA tricks)
 - `contimes_toggle` - toggle seeing contimes text (e.g. for double dialogue skip)
+- `toggleduck` - toggle being crouched
 - `swapsplit` - switch between the blue and orange robots when playing solocoop
 - `do_load <save name>` - load a save only if in non-CM singleplayer. (Deprecated - see `cm_only` and `non_cm_only` below)
 - `do_reset` - reset your run
