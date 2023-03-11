@@ -72,6 +72,8 @@ You can bind the following commands:
 - `swapsplit` - switch between the blue and orange robots when playing solocoop
 - `do_load <save name>` - load a save only if in non-CM singleplayer. (Deprecated - see `cm_only` and `non_cm_only` below)
 - `do_reset` - reset your run
+- `viewsnap_next` - go to the next viewsnap setting. Refer to `viewsnap.cfg` for routes.
+- `reset_sens` - resets sensitivity after doing viewsnaps.
 
 All of the `_toggle` binds also have `+`/`-` versions; e.g.
 `+supershoot` can be bound to enable supershoot only while a key is
@@ -133,6 +135,9 @@ For instance, `svar_set no_dialogue_toasts 1` will disable dialogue fade toasts.
 | `fullbright_amount`        |   0.1   | The value to use for `mat_ambient_light` when toggling fullbright.
 | `anypc_transition_time`    |    0    | `ui_loadingscreen_transition_time` for the `anypc` category.
 | `enable_menu_transitions`  |    0    | Re-enables the transition effects in menus.
+| `viewsnap_dpi_scale`       |   500   | The value to use for `sar_dpi_scale` when doing viewsnaps.
+| `viewsnap_enable_on_load`  |    0    | Whether to activate certain viewsnaps ([in CM only]) upon loading the map.
+| `viewsnap_crazy_box`       |  easy   | Viewsnap route for Crazy Box in Fullgame. Can be changed to `hard`.
 | `demo_folder_name`         |  demos  | Name of the folder for demos.<br>e.g. `.../steamapps/common/Portal 2/portal2/demos/...`
 
 [containerridesave]: https://drive.google.com/open?id=1ZwhBdnYNeFi2pVEvhlAq_EU1OD1WFS8k
@@ -141,6 +146,7 @@ For instance, `svar_set no_dialogue_toasts 1` will disable dialogue fade toasts.
 [Betsrighter]: https://wiki.portal2.sr/Wakeup
 [Crouch Fly]: https://wiki.portal2.sr/Crouch_Flying_Glitch
 [CM board autosubmission]: https://youtu.be/3GLUW4sGmLs?t=392
+[in CM only]: https://discord.com/channels/146404426746167296/636786123091345438/1082850874021384272
 
 |          Name          | Default
 | ---------------------: | :------
