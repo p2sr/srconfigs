@@ -111,7 +111,7 @@ For instance, `svar_set no_dialogue_toasts 1` will disable dialogue fade toasts.
 
 |            Name            | Default | Description
 | -------------------------- | :-----: | -----------
-| `sp_use_save`              |    1    | Selects which save to use for Portal 2 Fullgame, Any%, and Chapter 1 runs.<br>0 - no save, 1 - [containerridesave], 2 - [vault save].
+| `sp_use_save`              |    2    | Selects which save to use for Portal 2 Fullgame, Any%, and Chapter 1 runs.<br>0 - no save, 1 - [containerridesave], 2 - [vault save].
 | `mel_use_save`             |    0    | Selects which save to use for Portal Stories: Mel runs.<br>0 - no save, 1 - [tram save].
 | `no_dialogue_toasts`       |    0    | When 1, disable all dialogue fade toasts.
 | `no_dialogue_toasts_sp`    |    0    | When 1, disable dialogue fade toasts in singleplayer.
