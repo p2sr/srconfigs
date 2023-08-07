@@ -50,9 +50,9 @@ correctly:
 - `bind mwheelup +scrollup`
 - `bind mwheeldown +scrolldown`
 
-When used in Portal Reloaded, the command to shoot a time portal is `+attack3`. Therefore you should set this bind:
+When used in Portal Reloaded, the commands to shoot portals are `+att1`, `+att2`, and `+att3`. Therefore you should set these binds:
 
-- `bind mouse3 +attack3`
+- `bind mouse1 +att1; bind mouse2 +att2; bind mouse3 +att3`
 
 It is recommended to change your chat bind (`say`) to the more general `chat` provided by srconfigs.
 
