@@ -113,6 +113,7 @@ For instance, `svar_set no_dialogue_toasts 1` will disable dialogue fade toasts.
 | -------------------------- | :-----: | -----------
 | `sp_use_save`              |    2    | Selects which save to use for Portal 2 Fullgame, Any%, and Chapter 1 runs.<br>0 - no save, 1 - [containerridesave], 2 - [vault save].
 | `mel_use_save`             |    0    | Selects which save to use for Portal Stories: Mel runs.<br>0 - no save, 1 - [tram save].
+| `aptag_use_save`           |    0    | Selects which save to use for Aperture Tag runs.<br>0 - no save, 1 - [intro save].
 | `no_dialogue_toasts`       |    0    | When 1, disable all dialogue fade toasts.
 | `no_dialogue_toasts_sp`    |    0    | When 1, disable dialogue fade toasts in singleplayer.
 | `no_dialogue_toasts_coop`  |    0    | When 1, disable dialogue fade toasts in coop.
@@ -143,6 +144,7 @@ For instance, `svar_set no_dialogue_toasts 1` will disable dialogue fade toasts.
 [containerridesave]: https://drive.google.com/open?id=1ZwhBdnYNeFi2pVEvhlAq_EU1OD1WFS8k
 [vault save]: https://www.speedrun.com/resourceasset/azdcg
 [tram save]: https://cdn.discordapp.com/attachments/811780246608281650/983275907022204938/tram.sav
+[intro save]: https://www.speedrun.com/static/resource/88ze2.rar?v=3dbeb37
 [Betsrighter]: https://wiki.portal2.sr/Wakeup
 [Crouch Fly]: https://wiki.portal2.sr/Crouch_Flying_Glitch
 [CM board autosubmission]: https://youtu.be/3GLUW4sGmLs?t=392
