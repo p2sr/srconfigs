@@ -111,9 +111,14 @@ For instance, `svar_set no_dialogue_toasts 1` will disable dialogue fade toasts.
 
 |            Name            | Default | Description
 | -------------------------- | :-----: | -----------
-| `sp_use_save`              |    2    | Selects which save to use for Portal 2 Fullgame, Any%, and Chapter 1 runs.<br>0 - no save, 1 - [containerridesave], 2 - [vault save].
-| `mel_use_save`             |    0    | Selects which save to use for Portal Stories: Mel runs.<br>0 - no save, 1 - [tram save].
-| `aptag_use_save`           |    0    | Selects which save to use for Aperture Tag runs.<br>0 - no save, 1 - [intro save].
+| `sp_use_save`              |    2    | Selects which save to use for [Portal 2] Fullgame, Any%, and Chapter 1 runs.<br>0 - no save, 1 - [containerridesave], 2 - [vault save].
+| `mel_use_save`             |    0    | Selects which save to use for [Portal Stories: Mel] runs.<br>0 - no save, 1 - [tram save].
+| `aptag_use_save`           |    0    | Selects which save to use for [Aperture Tag] runs.<br>0 - no save, 1 - [intro save].
+| `afterhours_use_save`      |    0    | Selects which save to use for [After Hours] runs.<br>0 - no save, 1 - [after hours vault save].
+| `ireland_use_save`         |    0    | Selects which save to use for [Aperture Ireland] runs.<br>0 - no save, 1 - [ireland vault save].
+| `mindescape_use_save`      |    0    | Selects which save to use for [Mind Escape] runs.<br>0 - no save, 1 - [mind escape vault save].
+| `p1dp2_use_save`           |    0    | Selects which save to use for [P1 Done P2] runs.<br>0 - no save, 1 - [p1dp2 vault save].
+| `welcomeback_use_save`     |    0    | Selects which save to use for [Welcome Back] runs.<br>0 - no save, 1 - [welcome back vault save].
 | `no_dialogue_toasts`       |    0    | When 1, disable all dialogue fade toasts.
 | `no_dialogue_toasts_sp`    |    0    | When 1, disable dialogue fade toasts in singleplayer.
 | `no_dialogue_toasts_coop`  |    0    | When 1, disable dialogue fade toasts in coop.
@@ -141,10 +146,23 @@ For instance, `svar_set no_dialogue_toasts 1` will disable dialogue fade toasts.
 | `viewsnap_crazy_box`       |  easy   | Viewsnap route for Crazy Box in Fullgame. Can be changed to `hard`.
 | `demo_folder_name`         |  demos  | Name of the folder for demos.<br>e.g. `.../steamapps/common/Portal 2/portal2/demos/...`
 
+[Portal 2]: https://store.steampowered.com/app/620/
+[Portal Stories: Mel]: https://store.steampowered.com/app/317400/
+[Aperture Tag]: https://store.steampowered.com/app/280740/
+[After Hours]: https://steamcommunity.com/sharedfiles/filedetails/?id=1336492508
+[Aperture Ireland]: https://www.moddb.com/mods/aperture-ireland/downloads/aperture-ireland-version-20
+[Mind Escape]: https://www.speedrun.com/mind_escape
+[P1 Done P2]: https://www.speedrun.com/p1_done_p2
+[Welcome Back]: https://www.speedrun.com/welcome_back
 [containerridesave]: https://drive.google.com/open?id=1ZwhBdnYNeFi2pVEvhlAq_EU1OD1WFS8k
 [vault save]: https://www.speedrun.com/resourceasset/azdcg
 [tram save]: https://cdn.discordapp.com/attachments/811780246608281650/983275907022204938/tram.sav
 [intro save]: https://www.speedrun.com/static/resource/88ze2.rar?v=3dbeb37
+[after hours vault save]: https://github.com/JaioCG/p2mod-speedrun-utils/blob/f1f1920abb246dca4aabab514f9f4eaa2e0300a8/vault-saves/portal-after-hours/ah-vault.sav
+[ireland vault save]: https://github.com/JaioCG/p2mod-speedrun-utils/blob/f1f1920abb246dca4aabab514f9f4eaa2e0300a8/vault-saves/aperture-ireland/vault.sav
+[mind escape vault save]: https://github.com/JaioCG/p2mod-speedrun-utils/blob/f1f1920abb246dca4aabab514f9f4eaa2e0300a8/vault-saves/mind-escape/vault.sav
+[p1dp2 vault save]: https://github.com/JaioCG/p2mod-speedrun-utils/blob/f1f1920abb246dca4aabab514f9f4eaa2e0300a8/vault-saves/p1-done-p2/non-downpatched/vault.sav
+[welcome back vault save]: https://www.speedrun.com/welcome_back/resources/r4bq9
 [Betsrighter]: https://wiki.portal2.sr/Wakeup
 [Crouch Fly]: https://wiki.portal2.sr/Crouch_Flying_Glitch
 [CM board autosubmission]: https://youtu.be/3GLUW4sGmLs?t=392
