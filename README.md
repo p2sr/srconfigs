@@ -86,8 +86,7 @@ can be used to make a bind only effective in certain cases, e.g.
 ## HUD text
 
 Every toggle has a piece of associated HUD text which can be shown or
-hidden at will. By default, the texts corresponding to funneling and
-dialogue are shown.
+hidden at will.
 
 The text visibility can be changed using `sar_hud_show_text` and
 `sar_hud_hide_text`; for instance, `sar_hud_show_text 2` will show the
