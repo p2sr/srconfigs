@@ -9,7 +9,7 @@ they should automatically be run by the game as necessary. Ensure [SAR] is
 installed. Refer to the [Speedrun Setup Guide] for a video tutorial.
 
 [SAR]: https://github.com/p2sr/SourceAutoRecord
-[Speedrun Setup Guide]: https://youtu.be/fnFenfXjrtg?t=37
+[Speedrun Setup Guide]: https://youtu.be/ykBHtRd8Oyg
 
 ## Categories
 
