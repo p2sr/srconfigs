@@ -172,6 +172,7 @@ Demo names may use the following strings:
 - `$map` - the human-readable map name (e.g. `triple-laser`)
 - `$formatted_map` - the human-readable map name in title case and spaced (e.g. `Triple Laser`)
 - `$role` - in coop, either `blue` or `orange`
+- `$partner` - in coop, the name of the other player. Must first be added with `partner_add "<name>"`
 - Other [strftime] timestamp syntax
 
 [strftime]: https://cplusplus.com/reference/ctime/strftime
