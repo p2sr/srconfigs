@@ -68,6 +68,7 @@ You can bind the following commands:
 - `supershoot_toggle` - toggle scroll being shoot
 - `30fps_toggle` - toggle 30fps mode (for coop button glitches and certain SLA tricks)
 - `contimes_toggle` - toggle seeing contimes text (e.g. for double dialogue skip)
+- `slowwalk_toggle` - toggle walking speed
 - `toggleduck` - toggle being crouched
 - `swapsplit` - switch between the blue and orange robots when playing solocoop
 - `do_load <save name>` - load a save only if in non-CM singleplayer. (Deprecated - see `cm_only` and `non_cm_only` below)
@@ -100,6 +101,7 @@ text corresponding to fullbright. The text IDs are below.
 - 5: supershoot
 - 6: 30fps
 - 7: contimes
+- 8: slowwalk
 
 ## Customisation svars
 
