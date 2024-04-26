@@ -126,7 +126,8 @@ For instance, `svar_set no_dialogue_toasts 1` will disable dialogue fade toasts.
 | `no_taunt_toasts_coop`     |    0    | When 1, disable `[taunt]` toasts in coop.
 | `show_map_name_coop`       |    1    | When 1, show the current map name in coop.
 | `show_blank_fades`         |    1    | When 1, show `[no fade]` for maps that don't have a dialogue fade.
-| `coop_cm_enable_hud`       |    1    | When 1, don't disable the CM stats HUD in coop.
+| `cm_hud_behavior`          |    1    | Changes the behavior of `sar_disable_challenge_stats_hud`. -1 - Closes instantly, 0 - Doesn't automatically close, 1 - Closes after flashing.
+| `coop_cm_enable_hud`       |    1    | When 1, don't disable the CM stats HUD in coop. Otherwise, stats hud reflects behavior of `cm_hud_behavior`.
 | `coop_no_stopvideos`       |    0    | When 1, don't run `stopvideos` on every coop load.
 | `coop_no_remoteview`       |    0    | When 1, don't enable remote view on every coop load.
 | `coop_no_remoteview_lobby` |    0    | When 1, don't enable remote view on coop loads into the Lobby.<br>Turn this on if you experience lag in the Lobby.
