@@ -131,6 +131,7 @@ For instance, `svar_set no_dialogue_toasts 1` will disable dialogue fade toasts.
 | `coop_no_stopvideos`       |    0    | When 1, don't run `stopvideos` on every coop load.
 | `coop_no_remoteview`       |    0    | When 1, don't enable remote view on every coop load.
 | `coop_no_remoteview_lobby` |    0    | When 1, don't enable remote view on coop loads into the Lobby.<br>Turn this on if you experience lag in the Lobby.
+| `mel_fps_config`           |    1    | FPS config to use for Portal Stories: Mel. 0 - none, 1 - max fps, 2 - viewmodel enabled.
 | `solocoop_fullscreen`      |    0    | When 1, have one fullscreen view in Solo Coop instead of splitscreen.
 | `cm_attempt_counter`       |    1    | When 1, show an attempt counter on the SAR HUD in CM.
 | `cm_ghost_server`          |   -1    | When 1, connect to a world-wide ghost server when playing CM.
