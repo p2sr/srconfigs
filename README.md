@@ -70,6 +70,7 @@ You can bind the following commands:
 - `contimes_toggle` - toggle seeing contimes text (e.g. for double dialogue skip)
 - `slowwalk_toggle <speed>` - toggle walking speed
 - `toggleduck` - toggle being crouched
+- `togglesprint` - (for INFRA) toggle sprinting
 - `swapsplit` - switch between the blue and orange robots when playing solocoop
 - `do_load <save name>` - load a save only if in non-CM singleplayer. (Deprecated - see `cm_only` and `non_cm_only` below)
 - `do_reset` - reset your run
