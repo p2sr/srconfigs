@@ -23,9 +23,11 @@ These configuration files support the following speedrun categories:
 - Solo Coop (`solocoop`)
 - Coop Challenge Mode (`coop_cm`)
 - Chapter ILs (`chapter_il`)
+- Individual Levels (`il`)
 - Celeste Mode (`celeste` - P2SM only)
 - Reverse Mod (`reverse` - P2SM only)
-- Workshop (`workshop`)
+- Workshop Maps (`workshop`)
+- Bhop Maps (`bhop`)
 
 To manually switch to a category, simply run the category name as a
 command; for instance, the command `anypc` activates the Any% category.
@@ -39,8 +41,11 @@ After manually selecting a category, the automatic selection will not be
 re-enabled until the `auto` command is ran.
 
 Note that in mods, only the `fullgame` category exists from the above.
-Some mods also add a simple `il` category for doing individual level
-runs.
+
+An `il` category is also added for individual workshop maps as well as
+manually-downloaded chambers, while `workshop` should be used for multiple
+workshop maps (MRCC). The `bhop` category specifically times maps that include
+the Timer prefab often seen on bhop maps.
 
 ## Binds
 
