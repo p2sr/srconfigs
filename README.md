@@ -172,6 +172,8 @@ For instance, `svar_set no_dialogue_toasts 1` will disable dialogue fade toasts.
 [mind escape vault save]: https://github.com/JaioCG/p2mod-speedrun-utils/blob/f1f1920abb246dca4aabab514f9f4eaa2e0300a8/vault-saves/mind-escape/vault.sav
 [p1dp2 vault save]: https://github.com/JaioCG/p2mod-speedrun-utils/blob/f1f1920abb246dca4aabab514f9f4eaa2e0300a8/vault-saves/p1-done-p2/non-downpatched/vault.sav
 [welcome back vault save]: https://www.speedrun.com/welcome_back/resources/r4bq9
+[Betsrighter]: https://wiki.portal2.sr/Wakeup
+[Crouch Fly]: https://wiki.portal2.sr/Crouch_Flying_Glitch
 
 |          Name          | Default
 | ---------------------: | :------
