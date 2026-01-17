@@ -152,6 +152,7 @@ For instance, `svar_set no_dialogue_toasts 1` will disable dialogue fade toasts.
 | `enable_menu_transitions`  |    0    | Re-enables the transition effects in menus.
 | `viewsnap_dpi_scale`       |   500   | The value to use for `sar_dpi_scale` when doing viewsnaps.
 | `viewsnap_enable_on_load`  |    0    | Whether to activate certain viewsnaps ([in CM only]) upon loading the map.
+| `viewsnap_show_info`       |    1    | When 1, show toast info about the current viewsnap route. (Blue text)
 | `viewsnap_crazy_box`       |  easy   | Viewsnap route for Crazy Box in Fullgame. Can be changed to `hard` or `cm`.
 | `demo_folder_name`         |  demos  | Name of the folder for demos.<br>e.g. `.../steamapps/common/Portal 2/portal2/demos/...`
 
@@ -174,6 +175,8 @@ For instance, `svar_set no_dialogue_toasts 1` will disable dialogue fade toasts.
 [welcome back vault save]: https://www.speedrun.com/welcome_back/resources/r4bq9
 [Betsrighter]: https://wiki.portal2.sr/Wakeup
 [Crouch Fly]: https://wiki.portal2.sr/Crouch_Flying_Glitch
+[CM board autosubmission]: https://youtu.be/3GLUW4sGmLs?t=392
+[in CM only]: https://discord.com/channels/146404426746167296/636786123091345438/1082850874021384272
 
 |          Name          | Default
 | ---------------------: | :------
