@@ -143,8 +143,9 @@ For instance, `svar_set no_dialogue_toasts 1` will disable dialogue fade toasts.
 | `cm_ghost_server`          |   -1    | When 1, connect to a world-wide ghost server when playing CM.
 | `chapter_il_betsrighter`   |    1    | When 1, give [Betsrighter] in relevant Chapter IL runs. (i.e. chapter 2-9 in Portal 2)
 | `chapter_il_fly`           |    1    | When 1, give [Crouch Fly] in relevant Chapter IL runs. (i.e. chapter 9 in Portal 2)
-| `useswap_invert`           |    0    | When 1, invert the useswap toggle so that `+useswap` makes both scrolls jump.
+| `useswap_invert`           |    0    | When 1, useswap is enabled by default.
 | `useswap_both`             |    0    | When 1, make the useswap toggle affect `+scrolldown` as well as `+scrollup`.
+| `useswap_down`             |    0    | When 1, make the useswap toggle affect only `+scrolldown`. This is overridden by `useswap_both`.
 | `supershoot_use_orange`    |    0    | When 1, make the supershoot toggle shoot the orange portal instead of blue.
 | `cm_keep_pb_only`          |    0    | When 1, only store PB demos in CM. Requires [CM board autosubmission] to be set up!
 | `fullbright_amount`        |   0.1   | The value to use for `mat_ambient_light` when toggling fullbright.
